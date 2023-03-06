@@ -1,14 +1,14 @@
 
-package Exemplo03;
+package Exemplo04;
 
 
-public class Vetores_Matriz {
+public class Exercicio02 {
    
     public static void main(String[] args) {
         
         int mat [] [] = new int[10][10];
         
-        //preencher matriz
+        //preencher matriz numeros aleatorios
         for (int i = 0; i < mat.length; i++) {
             for (int j = 0; j < mat[i].length; j++) {
                 mat[i][j] = (int) (Math.random()*255);
@@ -27,3 +27,4 @@ public class Vetores_Matriz {
         }
     }
 }
+
