@@ -1,13 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Exercicio_POO;
 
-/**
- *
- * @author 830015
- */
+
 public class PessoaTest {
-    
+   
+    public static void main(String[] args) {
+       /* 
+        Pessoa Joao = new Pessoa();
+        Joao.setNome( "Joao Victor");
+        Joao.setEmail( "jv@email.com");
+        
+        System.out.println(Joao.toString());*/
+       
+       Pessoa ana = new Pessoa();
+       System.out.println(ana.toString());
+       
+       Pessoa Jose = new Pessoa(
+          "José Antônio",
+          "Jose@email.com"
+       );
+       System.out.println(Jose.toString());
+    }
 }
